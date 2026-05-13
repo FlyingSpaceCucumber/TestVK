@@ -1,0 +1,61 @@
+.doc-access-wrapper {
+    padding: 10px 0;
+}
+
+#doc-link-display {
+    margin-bottom: 12px;
+    background-color: #f6f7f7;
+    border: 1px solid #dcdcde;
+    color: #50575e;
+    font-family: monospace;
+    cursor: default;
+}
+
+#js-generate-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doc-access-wrapper .spinner {
+    float: none;
+    margin: -4px 0 0 8px;
+}
+
+
+/* copy link */
+
+.doc-link-container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.doc-link-container input {
+    flex-grow: 1;
+    font-family: monospace;
+    background-color: #f0f0f1;
+}
+
+#js-copy-link {
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 12px;
+}
+
+#js-copy-link.button-primary {
+    background-color: #00a32a;
+    border-color: #00a32a;
+}
+
+.doc-actions-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.doc-access-wrapper .description {
+    color: #d63638;
+    margin-top: 8px;
+}
