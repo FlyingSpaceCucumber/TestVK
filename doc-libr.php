@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace DocAccessManager;
+namespace DocumentLibrary;
 
 if (!defined('ABSPATH')) exit;
 
